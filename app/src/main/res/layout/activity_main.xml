@@ -7,51 +7,101 @@
     tools:context=".MainActivity">
 
   <TextView
-      android:id="@+id/tv4"
-      android:layout_alignParentTop="true"
+      android:id="@+id/tv1"
       android:layout_centerInParent="true"
       android:gravity="center"
-      android:layout_width="wrap_content"
+      android:layout_width="80dp"
       android:layout_height="wrap_content"
-      android:text="Top Content Here"
+      android:text="1"
       android:textColor="#ffff"
       android:background="#E91E63"
       android:textSize="30dp"/>
 
   <TextView
-      android:id="@+id/Second"
-      android:layout_centerInParent="true"
+      android:layout_above="@+id/tv1"
+      android:layout_toLeftOf="@id/tv1"
       android:gravity="center"
-      android:layout_width="wrap_content"
+      android:layout_width="80dp"
       android:layout_height="wrap_content"
-      android:text="Second"
+      android:text="2"
       android:textColor="#ffff"
-      android:background="#2196F3"
+      android:background="#009688"
       android:textSize="30dp"/>
 
   <TextView
-      android:layout_marginRight="20dp"
-      android:layout_centerInParent="true"
-      android:layout_toLeftOf="@id/Second"
+      android:layout_below="@+id/tv1"
+      android:layout_toLeftOf="@id/tv1"
       android:gravity="center"
-      android:layout_width="wrap_content"
+      android:layout_width="80dp"
       android:layout_height="wrap_content"
-      android:text="First"
-      android:textColor="#ffff"
-      android:background="#4CAF50"
-      android:textSize="30dp"/>
-
-  <TextView
-      android:layout_marginLeft="20dp"
-      android:layout_centerInParent="true"
-      android:layout_toRightOf="@id/Second"
-      android:gravity="center"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Three"
+      android:text="3"
       android:textColor="#ffff"
       android:background="#FF9800"
       android:textSize="30dp"/>
+
+  <TextView
+    android:id="@+id/tv2"
+    android:layout_above="@+id/tv1"
+    android:layout_toRightOf="@id/tv1"
+    android:gravity="center"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:text="4"
+    android:textColor="#ffff"
+    android:background="#9C27B0"
+    android:textSize="30dp"/>
+
+  <TextView
+      android:layout_below="@+id/tv1"
+      android:layout_toRightOf="@id/tv1"
+      android:gravity="center"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:text="5"
+      android:textColor="#ffff"
+      android:background="#5D5160"
+      android:textSize="30dp"/>
+
+  <TextView
+      android:gravity="center"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:text="6"
+      android:textColor="#ffff"
+      android:background="#807083"
+      android:textSize="30dp"/>
+
+  <TextView
+      android:layout_alignParentRight="true"
+      android:gravity="center"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:text="7"
+      android:textColor="#ffff"
+      android:background="#00BCD4"
+      android:textSize="30dp"/>
+
+  <TextView
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:text="8"
+      android:textColor="#ffff"
+      android:background="#3F51B5"
+      android:textSize="30dp"/>
+
+  <TextView
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:layout_width="80dp"
+      android:layout_height="wrap_content"
+      android:text="9"
+      android:textColor="#ffff"
+      android:background="#FFC107"
+      android:textSize="30dp"/>
+
 
 
 
